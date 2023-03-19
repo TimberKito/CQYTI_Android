@@ -7,11 +7,11 @@
         <deviceKey>
           <Key>
             <type value="SERIAL_NUMBER" />
-            <value value="127.0.0.1:5555" />
+            <value value="emulator-5554" />
           </Key>
         </deviceKey>
       </Target>
     </runningDeviceTargetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2023-03-13T03:12:16.735470400Z" />
+    <timeTargetWasSelectedWithDropDown value="2023-03-19T12:32:05.891905600Z" />
   </component>
 </project>
