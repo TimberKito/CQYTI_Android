@@ -12,7 +12,7 @@
         android:layout_height="27dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="42dp"
         app:srcCompat="@drawable/imgback" />
 
@@ -22,8 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="81dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="82dp"
         android:text="Timber"
         android:textAllCaps="false"
         android:textColor="#151515"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="27dp"
+        android:layout_marginStart="33dp"
         android:layout_marginTop="121dp"
         android:text=" 已关联微信账号，请绑定手机号"
         android:textSize="12sp" />
@@ -51,27 +51,16 @@
         android:layout_marginTop="68dp"
         app:srcCompat="@drawable/imgperson" />
 
-    <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="352dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="164dp"
-        android:ems="10"
-        android:inputType="phone" />
-
     <RadioButton
-        android:id="@+id/radioButton"
+        android:id="@+id/tiaokuan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="30dp"
-        android:layout_marginBottom="14dp"
+        android:layout_marginBottom="55dp"
         android:text="我已阅读并同意"
-        android:textSize="12sp" />
+        android:textSize="9sp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -80,12 +69,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="151dp"
-        android:layout_marginBottom="30dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="72dp"
         android:text="《隐私隐私》 、《注册协议》"
         android:textColor="#03A9F4"
         android:textColorHighlight="#1C88B8"
-        android:textSize="12sp" />
+        android:textSize="9sp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -93,22 +82,46 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="264dp"
-        android:layout_marginBottom="16dp"
-        android:text="《合作协议》"
+        android:layout_marginEnd="299dp"
+        android:layout_marginBottom="54dp"
+        android:text="《合乘协议》"
         android:textColor="#03A9F4"
-        android:textSize="12sp" />
+        android:textSize="9sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="314dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginBottom="13dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="53dp"
         android:text="下一步"
         android:textColor="#F4F4F4" />
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="165dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/userPass"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="225dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
 </RelativeLayout>
