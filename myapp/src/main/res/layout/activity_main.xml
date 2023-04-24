@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--导航栏id:tab_bar-->
+    <LinearLayout
+        android:id="@+id/tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <!--添加导航栏中的四个条目(图片+文本)-->
+        <!--第一个-->
+        <LinearLayout
+            android:id="@+id/ly_tab_menu_zhuye"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="7dp">
+                <ImageView
+                    android:id="@+id/TM_zhuye"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/zhuye_normal" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--第二个-->
+        <LinearLayout
+            android:id="@+id/ly_tab_menu_news"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="7dp">
+                <ImageView
+                    android:id="@+id/TM_news"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/news_normal" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--第三个-->
+        <LinearLayout
+            android:id="@+id/ly_tab_menu_xiaoxi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="7dp">
+                <ImageView
+                    android:id="@+id/TM_xiaoxi"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/xiaoxi_normal" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--第四个-->
+        <LinearLayout
+            android:id="@+id/ly_tab_menu_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="7dp">
+                <ImageView
+                    android:id="@+id/TM_setting"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/me_normal" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--分割线-->
+    <View
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_above="@id/tab_bar"
+        android:background="#cdcdcd" />
+
+    <!--静态加载第一个 fragment 碎片-->
+    <FrameLayout
+        android:id="@+id/MyFragmentXML"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/div_tab_bar"
+        android:name="com.example.fragment.frag1"/>
+
+</RelativeLayout>
