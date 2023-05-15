@@ -1,12 +1,540 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="19dp"
+        android:text="关注"
         android:textColor="@color/black"
-        android:textSize="40sp"
-        android:text="这是第二个碎片" />
-</RelativeLayout>
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/colorshape" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="894dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="51dp"
+        android:background="#DDDDDD">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="367dp"
+            android:layout_height="224dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="23dp"
+            android:background="@drawable/colorshape2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="366dp"
+            android:layout_height="226dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/colorshape2" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="333dp"
+            android:text="特斯拉发布的model S电动汽车，将在中国上海建设新的一批汽车生产线，届时特斯拉电动汽车在国内..."
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="89dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="378dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/tsl" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="469dp"
+            android:layout_marginEnd="200dp"
+            app:srcCompat="@drawable/comment2" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="471dp"
+            android:text="10"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="722dp"
+            android:text="10"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="212dp"
+            android:layout_marginTop="222dp"
+            android:text="7"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="21dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="301dp"
+            android:layout_marginTop="468dp"
+            app:srcCompat="@drawable/fans" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="322dp"
+            android:layout_marginTop="471dp"
+            android:text="6"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="97dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="257dp"
+            android:layout_marginTop="381dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/tsl" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="89dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="377dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/tsl" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="24dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="466dp"
+            app:srcCompat="@drawable/like2" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="470dp"
+            android:text="42"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="288dp"
+            android:text="热门科技速报"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="311dp"
+            android:layout_marginEnd="248dp"
+            android:text="2023-3-4 16:03"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="35dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="286dp"
+            app:srcCompat="@drawable/myicon" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="89dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="129dp"
+            app:srcCompat="@drawable/caocao2" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="366dp"
+            android:layout_height="230dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="520dp"
+            android:background="@drawable/colorshape2" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="583dp"
+            android:text="著名台湾乐队deca joins将于七月2日在成都举行音乐演唱会，届时将会演唱海浪、浴室等歌曲"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="562dp"
+            android:layout_marginEnd="248dp"
+            android:text="2023-5-14 22:25"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="538dp"
+            android:text="热门音乐速报"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="89dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="627dp"
+            app:srcCompat="@drawable/deca" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="24dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="716dp"
+            app:srcCompat="@drawable/like2" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="720dp"
+            android:text="42"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="719dp"
+            android:layout_marginEnd="200dp"
+            app:srcCompat="@drawable/comment2" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="89dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="628dp"
+            app:srcCompat="@drawable/deca" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="21dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="301dp"
+            android:layout_marginTop="718dp"
+            app:srcCompat="@drawable/fans" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="322dp"
+            android:layout_marginTop="722dp"
+            android:text="6"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="97dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="257dp"
+            android:layout_marginTop="631dp"
+            app:srcCompat="@drawable/deca" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="20dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="537dp"
+            android:layout_marginEnd="65dp"
+            app:srcCompat="@drawable/open" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="20dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="288dp"
+            android:layout_marginEnd="65dp"
+            app:srcCompat="@drawable/open" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="20dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="65dp"
+            app:srcCompat="@drawable/open" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="35dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="536dp"
+            app:srcCompat="@drawable/myicon" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="40dp"
+            android:text="热门游戏速报"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="35dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="38dp"
+            app:srcCompat="@drawable/myicon" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="85dp"
+            android:text="由任天堂公司发布的塞尔达传说王国之泪于五月十二日全球同步发售，引来众多游戏玩家追捧。。"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="248dp"
+            android:text="2023-5-14 22:25"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="21dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="301dp"
+            android:layout_marginTop="220dp"
+            app:srcCompat="@drawable/fans" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="24dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="218dp"
+            app:srcCompat="@drawable/like2" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="221dp"
+            android:layout_marginEnd="200dp"
+            app:srcCompat="@drawable/comment2" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="89dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="129dp"
+            app:srcCompat="@drawable/caocao" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="89dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="130dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/caocao2" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="97dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="257dp"
+            android:layout_marginTop="133dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/caocao3" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="69dp"
+            android:layout_marginTop="222dp"
+            android:text="35"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="322dp"
+            android:layout_marginTop="223dp"
+            android:text="3"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="22dp"
+        android:text="热门"
+        android:textSize="13sp" />
+    </RelativeLayout>
+</ScrollView>
