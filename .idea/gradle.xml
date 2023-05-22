@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/fragment" />
             <option value="$PROJECT_DIR$/myapp" />
+            <option value="$PROJECT_DIR$/sqllitedemo" />
           </set>
         </option>
       </GradleProjectSettings>

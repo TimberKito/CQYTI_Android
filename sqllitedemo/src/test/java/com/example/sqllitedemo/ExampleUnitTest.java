@@ -1,4 +1,4 @@
-package com.example.fragmenttest;
+package com.example.sqllitedemo;
 
 import org.junit.Test;
 
