@@ -9,6 +9,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".NoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fansActivity"
+            android:exported="false" />
+        <activity
+            android:name=".commentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".likeActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
